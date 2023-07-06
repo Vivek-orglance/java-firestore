@@ -9,8 +9,7 @@ body:
     description: 
       Create a report to help us improve.
 
-  validations:
-    required: true
+
 - type: markdown
   attributes:
     label: Environment (please complete the following information about Desktop).
@@ -59,9 +58,7 @@ body:
       value: |
         Provide the complete error message you received here.
         -
-        -
-  validations:
-    required: false 
+        
 - type: markdown
   attributes:
     value: |
