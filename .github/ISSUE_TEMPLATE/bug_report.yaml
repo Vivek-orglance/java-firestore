@@ -28,6 +28,9 @@ body:
         - OS type and version:
         - Java version:
         - Version(s):
+    validations:
+      required: true
+      maxLength: 200
 
   - type: markdown
     attributes:
