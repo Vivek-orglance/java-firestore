@@ -1,7 +1,7 @@
 name: Bug report
 
 description: |
-  Create a report to help us improve
+  Create a report to help us improve.
 
   Thanks for stopping by to let us know something could be better!
 
@@ -28,15 +28,12 @@ body:
         - OS type and version:
         - Java version:
         - Version(s):
-    validations:
-      required: true    
 
   - type: markdown
     attributes:
       value: |
         **Steps to reproduce**
         1. 
-        2. 
 
   - type: markdown
     attributes:
@@ -57,6 +54,12 @@ body:
       value: |
         **External references such as API reference guides**
         -
+
+  - type: textarea
+    attributes:
+      label: Error message (if applicable)
+      value: |
+        Provide the complete error message you received here.
 
   - type: markdown
     attributes:
