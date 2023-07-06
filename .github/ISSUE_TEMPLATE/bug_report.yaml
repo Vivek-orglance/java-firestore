@@ -9,10 +9,6 @@ body:
     description: 
       Create a report to help us improve.
 
-      Thanks for stopping by to let us know something could be better!
-
-      If you are still having issues, please include as much information as possible.
-
   validations:
     required: true
 - type: markdown
@@ -62,6 +58,8 @@ body:
     label: Error message (if applicable)
       value: |
         Provide the complete error message you received here.
+        -
+        -
   validations:
     required: false 
 - type: markdown
