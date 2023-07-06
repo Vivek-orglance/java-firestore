@@ -17,7 +17,7 @@ labels:
   - Bug
 
 body:
-  - type: markdown
+  - type: textarea
     attributes:
       value: |
         **Environment details**
