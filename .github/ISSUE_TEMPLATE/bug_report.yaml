@@ -31,14 +31,14 @@ body:
     validations:
       required: true    
 
-  - type: textarea
+  - type: markdown
     attributes:
       value: |
         **Steps to reproduce**
         1. 
         2. 
 
-  - type: textarea
+  - type: markdown
     attributes:
       value: |
         **Code example**
@@ -46,19 +46,19 @@ body:
         // example
         ```
 
-  - type: textarea
+  - type: markdown
     attributes:
       value: |
         **Stack trace**
         Any relevant stack trace here.
 
-  - type: textarea
+  - type: markdown
     attributes:
       value: |
         **External references such as API reference guides**
         -
 
-  - type: textarea
+  - type: markdown
     attributes:
       value: |
         **Any additional information below**
