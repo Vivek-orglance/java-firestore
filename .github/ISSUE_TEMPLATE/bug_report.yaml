@@ -24,6 +24,7 @@ body:
       - Version(s):
   validations:
     required: false
+
 - type: textarea
   attributes:
     label: Steps to reproduce
@@ -32,6 +33,7 @@ body:
       2. ?
   validations:
     required: false
+
 - type: markdown
   attributes:
     value: |
@@ -41,6 +43,7 @@ body:
       ```
   validations:
     required: false
+
 - type: markdown
   attributes:
     value: |
@@ -48,6 +51,7 @@ body:
       Any relevant stack trace here.
   validations:
     required: false
+
 - type: markdown
   attributes:
     value: |
@@ -55,18 +59,18 @@ body:
       -
   validations:
     required: false
+
 - type: textarea
   attributes:
     label: Error message (if applicable)
     value: |
       Provide the complete error message you received here.
-      -
+
 - type: markdown
   attributes:
     value: |
       **Any additional information below**
       Following these steps guarantees the quickest resolution possible.
-
       Thanks!
   validations:
     required: false
