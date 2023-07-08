@@ -6,8 +6,7 @@ body:
 - type: textarea
   attributes:
     label: Describe the bug
-    description: 
-      Create a report to help us improve.
+    description: Create a report to help us improve.
 - type: markdown
   attributes:
     label: Environment (please complete the following information about Desktop).
